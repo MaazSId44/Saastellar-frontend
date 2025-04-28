@@ -69,8 +69,6 @@ Open [http://localhost:3000](http://localhost:3000) to see your application.
 - `Header` at the top
 - `Main` body (`children`)
 - `Footer` at the bottom
-- No scroll on larger screens (`lg:` and above), but normal scroll on small devices.
-
 ---
 
 ## Fonts Setup
