@@ -21,17 +21,15 @@ The layout is fully responsive with a Header, Footer, and a Main Body section.
 
 ```plaintext
 /components
+  ├── CallInterface.tsx
   ├── Header.tsx
   ├── Footer.tsx
-/pages
-  ├── _app.tsx
-  ├── index.tsx
 /app
+  ├── page.tsx
   ├── layout.tsx (RootLayout)
-public
-  ├── assets (for images or logos)
-styles
   ├── globals.css
+public
+  ├── images/logos
 ```
 
 ---
