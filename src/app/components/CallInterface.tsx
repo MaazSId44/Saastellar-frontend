@@ -283,7 +283,7 @@ const CallInterface = () => {
               {!socketRef.current ? (
                 <button
                   onClick={handleStartCall}
-                  className="bg-blue-500 cursor-pointers text-white py-3 px-8 rounded-full text-lg shadow-lg hover:bg-blue-600 transition duration-300 ease-in-out"
+                  className="bg-blue-500 cursor-pointer text-white py-3 px-8 rounded-full text-lg shadow-lg hover:bg-blue-600 transition duration-300 ease-in-out"
                 >
                   Call Agent
                 </button>
@@ -300,7 +300,7 @@ const CallInterface = () => {
           ) : (
             <button
               onClick={handleEndCall}
-              className="bg-red-500 text-white py-3 px-8 rounded-full text-lg shadow-lg hover:bg-red-600 transition duration-300 ease-in-out"
+              className="bg-red-500 cursor-pointer text-white py-3 px-8 rounded-full text-lg shadow-lg hover:bg-red-600 transition duration-300 ease-in-out"
             >
               End Call
             </button>
